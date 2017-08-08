@@ -50,6 +50,7 @@ class DoublyLinkedList{
 			start=end=node;
 		}
 		else
+
 		{
 			end.setNext(node);
 			node.setPrevious(end);
